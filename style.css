@@ -1,0 +1,307 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-collapse .navbar-nav {
+    padding-left: 20px;
+}
+
+.navbar .navbar-brand {
+    display: block;
+    font-family: 'Bona Nova', serif;
+    font-size: 2rem;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.navbar .navbar-brand:hover {
+    color: rgb(33, 37, 41);
+}
+
+
+body .navbar-light .navbar-brand {
+    color: rgba(0,0,0,.7);
+}
+
+#title .nav-link {
+    color: rgba(0,0,0,.7);
+}
+
+#title .nav-link:hover {
+    color: rgb(33, 37, 41);
+}
+
+.nav-link p{
+    color: rgba(0,0,0,.7);
+}
+
+.nav-link p:hover {
+    color: rgb(33, 37, 41);
+}
+
+.nav-link {
+    margin-bottom: 1rem;
+}
+
+
+@media only screen and (min-width: 768px){
+
+    .navbar .navbar-brand {
+        display: none;
+    }
+
+    .navbar-nav #title {
+        display: block;
+        font-family: 'Bona Nova', serif;
+        font-size: 2rem;
+        margin-top: 0px;
+        margin-bottom: 3px;
+        color: rgba(0,0,0,.9);
+    }
+
+    .container-fluid .bg-title {
+        font-size: 6rem;
+    }
+
+    .container-fluid .bg-desc {
+        font-size: 1.4rem
+    }
+
+    .background .bg-hr {
+        border-top: 0.2rem solid rgb(192, 172, 80);
+        width: 33rem;
+    }
+
+    .nav-link {
+        margin-bottom: 0;
+    }
+
+}
+
+.navbar-nav > li {
+    margin: auto 2vw;
+}
+
+.navbar-nav li p {
+    margin-top: 0.2rem;
+}
+
+.nav-link{
+    color: black;
+}
+
+#title {
+    display: none;
+}
+
+.bg-title {
+    margin-top: 15rem;
+    font-family: 'Satisfy', serif;
+    font-size: 4rem;
+    color: white;
+
+}
+
+.bg-desc {
+    margin-top: 1.5rem;
+    font-family: 'Bona Nova', serif;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.bg-hr {
+    margin-top: 1rem;
+    border-top: 0.2rem solid rgb(192, 172, 80);
+    width: 20rem;
+}
+
+p {
+    padding-top: 0.5rem;
+    font-family: 'Bona Nova', serif;
+    font-size: 1.2rem;
+}
+
+nav {
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 10%);
+}
+
+
+.background {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:grey;
+    width: 100%;
+    height: 960px;
+
+}
+
+#main {
+    background-image: url(pictures/coffee-bg-1.jpg);
+}
+
+#menu {
+    background-image: url(pictures/coffee-bg-2.jpg);
+}
+
+#gallery {
+    background-image: url(pictures/coffee-bg-3.jpg);
+}
+
+#about{
+    background-image: url(pictures/coffee-bg-4.jpg);
+}
+
+#find {
+    background-image: url(pictures/coffee-bg-5.jpg);
+}
+
+.background-trans-b {
+    width: 100%;
+    height: 7rem;
+    margin-top: -3.5rem;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 100%);
+    margin-bottom: 2rem;
+}
+
+.background-trans-t {
+    width: 100%;
+    height: 7rem;
+    margin-bottom: -3.5rem;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 100%);
+    margin-top: 2rem;
+}
+
+.col {
+    text-align: center;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+  }
+
+.d-cont{
+    border-radius: 4px;
+    height: 30rem;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 50%, rgba(221, 203, 123, 0.498) 100%);
+    border: 1px solid rgb(192, 172, 80);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 10px 10px 5px rgb(221, 221, 221);
+}
+
+
+h2, h3, h4, h5 {
+    font-family: 'Bona Nova', serif;
+}
+
+.d-cont-text h1 {
+    font-style: italic;
+    font-family: 'Satisfy', cursive;
+    font-size: 5rem;
+    color: rgb(192, 172, 80);
+}
+
+h2 {
+    margin-bottom: 5rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+
+.img-cont {
+    margin-top: 2rem;
+}
+
+.img-cont img {
+    width: 20rem;
+    height: 30rem;
+    object-fit: cover;
+    border: 1px solid rgb(192, 172, 80);
+    margin-bottom: 2rem;
+    border-radius: 4px;
+}
+
+.menu > .col {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.col .card {
+    border: 1px solid rgb(192, 172, 80);
+    box-shadow: 10px 10px 5px rgb(221, 221, 221);
+}
+
+.carousel .carousel-inner {
+    border-radius: 4px;
+    border: 1px solid rgb(192, 172, 80);
+    box-shadow: 10px 10px 5px rgb(221, 221, 221);
+}
+
+footer {
+    margin-top: 0.5rem;
+    background: linear-gradient(180deg, rgba(37,41,46,1) 0%, rgba(9,10,11,1) 100%);
+}
+
+footer .col {
+    margin: 2rem auto;
+}
+
+.col .fa-ul {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1rem;
+    border-top: 0.2rem solid rgb(192, 172, 80);
+    padding-top: 1rem;
+    width: 50%;
+}
+
+.fa-ul li {
+    margin-bottom: 1rem;
+    font-family: 'Bona Nova', serif;
+    
+}
+
+.footer-row {
+    margin-top: 1rem;
+}
+
+li .footer-text {
+    font-size: 1.1rem;
+    padding-top: 0;
+}
+
+.list-group li {
+    font-family: 'Bona Nova', serif;
+    font-size: 1.2rem;
+}
+
+.map-container iframe {
+    border-radius: 4px;
+    border: 1px solid rgb(192, 172, 80);
+    box-shadow: 10px 10px 5px rgb(221, 221, 221);
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+}
